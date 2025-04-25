@@ -75,7 +75,7 @@ public class OnlineStoreApp {
             System.out.println("2. View Cart");
             System.out.println("3. Checkout");
             System.out.println("4. Exit");
-            System.out.print("Choose an option: ");
+            System.out.println("Choose an option: ");
             String choice = scanner.nextLine();
 
             switch (choice) {

@@ -46,12 +46,12 @@ public class OnlineStoreApp {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        loadInventory("products.csv");
+        loadInventory();
         homeScreen();
     }
 
-    static void loadInventory(String filename) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(filename));
+    static void loadInventory() throws IOException {
+        BufferedReader reader = new BufferedReader(new FileReader("products.csv"));
         String line = reader.readLine(); // Skip header
         while ((line = reader.readLine()) != null) {
             String[] parts = line.split("\\|");

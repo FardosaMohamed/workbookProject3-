@@ -43,7 +43,7 @@ public class OnlineStoreApp {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        loadInventory("/mnt/data/products.csv");
+        loadInventory("products.csv");
         homeScreen();
     }
 
@@ -76,13 +76,13 @@ public class OnlineStoreApp {
             System.out.print("Choose an option: ");
             String choice = scanner.nextLine();
 
-            switch (choice) {
-                case "1": displayProducts(); break;
-                case "2": displayCart(); break;
-                case "3": CheckOut(); break;
-                case "4": System.out.println("Thanks for visiting!"); return;
-                default: System.out.println("Invalid option. Try again.");
-            }
+//            switch (choice) {
+//                case "1": displayProducts(); break;
+//                case "2": displayCart(); break;
+//                case "3": CheckOut(); break;
+//                case "4": System.out.println("Thanks for visiting!"); return;
+//                default: System.out.println("Invalid option. Try again.");
+//            }
         }
     }
 }

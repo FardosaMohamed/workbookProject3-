@@ -88,7 +88,7 @@ public class OnlineStoreApp {
             }
         }
     }
-
+        // displays available products to shop
     static void displayProducts() {
         System.out.println("\nAvailable Products:");
         System.out.printf("%-10s %-30s %-10s %-20s\n", "SKU", "Name", "Price", "Department");
@@ -97,7 +97,7 @@ public class OnlineStoreApp {
             System.out.println(product);
         }
     }
-
+    // displays users items
     static void displayCart() {
         System.out.println("\nYour Cart:");
         if (cart.isEmpty()) {
@@ -111,7 +111,7 @@ public class OnlineStoreApp {
             System.out.printf("Total: $%.2f\n", total);
         }
     }
-
+        // can transition to checkout
     static void checkOut() {
         System.out.println("\nChecking out...");
         displayCart();

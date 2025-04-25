@@ -43,7 +43,7 @@ public class OnlineStoreApp {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        loadInventory("/mnt/data/products.csv");
+        loadInventory("products.csv");
         homeScreen();
     }
 

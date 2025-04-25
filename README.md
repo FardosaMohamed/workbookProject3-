@@ -14,7 +14,7 @@ The **Online Store** app reads inventory data from a `products.csv` file and all
 
   ##This project created by:
   
-    -Million Girmay
-    -Alejandro Cachu
+    - Million Girmay
+    - Alejandro Cachu
     -
     -

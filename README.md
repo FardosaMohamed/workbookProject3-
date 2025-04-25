@@ -16,5 +16,5 @@ The **Online Store** app reads inventory data from a `products.csv` file and all
   
     - Million Girmay
     - Alejandro Cachu
-    -
-    -
+    - Fardosa Mohamed
+    - Parmeet Gill
